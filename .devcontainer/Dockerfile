@@ -10,6 +10,7 @@ RUN bash /tmp/library-scripts/azcli-debian.sh \
     && curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl" \
     && sudo install -o root -g root -m 0755 kubectl /usr/local/bin/kubectl
 
+RUN /bin/zsh
 # [Optional] Uncomment this section to install additional OS packages.
 # RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \
 #     && apt-get -y install --no-install-recommends kubectl

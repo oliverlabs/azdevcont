@@ -11,10 +11,20 @@
 				"ms-vscode.azurecli",
 				"ms-dotnettools.vscode-dotnet-runtime",
 				"ms-azuretools.vscode-bicep"
-			]
+			],
+
+			"settings": { 
+        		// "terminal.integrated.shell.linux": "/bin/zsh"
+        		"terminal.integrated.defaultProfile.linux": "zsh", 
+        		"terminal.integrated.profiles.linux": {
+            		"zsh": {
+                	"path": "/bin/zsh"
+            		}
+        		}
+    		}
 		}
 	},
-	
+		
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	"forwardPorts": [8080],
 
