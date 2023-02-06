@@ -9,6 +9,7 @@ RUN bash /tmp/library-scripts/azcli-debian.sh \
     && apt-get clean -y && rm -rf /var/lib/apt/lists/* /tmp/library-scripts \
     && curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl" \
     && sudo install -o root -g root -m 0755 kubectl /usr/local/bin/kubectl
+    && az bicep install
 
 RUN /bin/zsh
 # [Optional] Uncomment this section to install additional OS packages.
