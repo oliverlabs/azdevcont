@@ -10,12 +10,13 @@ RUN bash /tmp/library-scripts/azcli-debian.sh \
     && chmod +x /usr/local/bin/bicep \
     && apt-get clean -y && rm -rf /var/lib/apt/lists/* /tmp/library-scripts \
     && curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl" \
-    && sudo install -o root -g root -m 0755 kubectl /usr/local/bin/kubectl
+    && sudo install -o root -g root -m 0755 kubectl /usr/local/bin/kubectl 
+    # && curl -fsSL https://get.docker.com | bash
+
+# RUN bash /tmp/library-scripts/common-debian.sh "false" "olivergulich" "automatic" "automatic" "true" "false"
 
 RUN az bicep install
-RUN bash /tmp/library-scripts/common-debian.sh
     
-
 RUN /bin/zsh
 # [Optional] Uncomment this section to install additional OS packages.
 # RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \
