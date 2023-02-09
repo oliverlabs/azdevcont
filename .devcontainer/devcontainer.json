@@ -36,7 +36,7 @@
 	"remoteUser": "vscode",
 	"features": {
 		"ghcr.io/devcontainers/features/common-utils:2": {},
-		"ghcr.io/devcontainer/features/azure-cli:1.0.7": {
+		"ghcr.io/devcontainer/features/azure-cli:1": {
       			"version": "latest",
 			"extensions": "amg,aks-preview,containerapp",
       			"installBicep": true
