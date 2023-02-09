@@ -10,7 +10,11 @@
 			"extensions": [
 				"ms-vscode.azurecli",
 				"ms-dotnettools.vscode-dotnet-runtime",
-				"ms-azuretools.vscode-bicep"
+				"ms-azuretools.vscode-bicep",
+				"msazurermtools.azurerm-vscode-tools",
+				"ms-azuretools.vscode-docker",
+				"editorconfig.editorconfig",
+				"github.vscode-pull-request-github"
 			],
 
 			"settings": { 
@@ -36,6 +40,8 @@
 		"ghcr.io/devcontainers/features/github-cli:1": {},
 		"ghcr.io/devcontainers-contrib/features/terraform-asdf:2": {},
 		"ghcr.io/devcontainers-contrib/features/zsh-plugins:0": {},
-		"ghcr.io/stuartleeks/dev-container-features/shell-history:0": {}
+		"ghcr.io/stuartleeks/dev-container-features/shell-history:0": {},
+		"github-cli": "latest",
+		"azure-cli": "latest"
 	}
 }
