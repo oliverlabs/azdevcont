@@ -15,8 +15,8 @@ RUN bash /tmp/library-scripts/azcli-debian.sh \
 
 # RUN bash /tmp/library-scripts/common-debian.sh "false" "olivergulich" "automatic" "automatic" "true" "false"
 
-RUN az bicep install
-RUN export PATH=/home/vscode/.azure/bin/bicep:$PATH
+# RUN az bicep install
+# RUN export PATH=/home/vscode/.azure/bin/bicep:$PATH
     
 RUN /bin/zsh
 # [Optional] Uncomment this section to install additional OS packages.
