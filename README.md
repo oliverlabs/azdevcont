@@ -14,6 +14,15 @@ Here is a list of packages, components that are available out-the-box with this 
 - Terraform (latest)
 - python3
 
+## VS Code Extensions
+- GitHub Actions
+- Azure CLI
+- VS Code dotnet runtime
+- VS Code Bicep
+- azurerm-vscode-tools
+- ms-azuretools.vscode-docker
+- editorconfig.editorconfig
+
 ## Debian Packages
 
 - apt-utils
