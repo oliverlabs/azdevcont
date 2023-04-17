@@ -16,9 +16,9 @@ RUN bash /tmp/library-scripts/azcli-debian.sh \
 # RUN bash /tmp/library-scripts/common-debian.sh "false" "olivergulich" "automatic" "automatic" "true" "false"
 
 # Install the latest terraform
-RUN wget --quiet https://releases.hashicorp.com/terraform/1.4.4/terraform_1.4.4_linux_amd64.zip \
-  && unzip terraform_1.4.4_linux_amd64.zip \
+RUN wget --quiet https://releases.hashicorp.com/terraform/1.4.5/terraform_1.4.5_linux_amd64.zip \
+  && unzip terraform_1.4.5_linux_amd64.zip \
   && mv terraform /usr/bin \
-  && rm terraform_1.4.4_linux_amd64.zip
+  && rm terraform_1.4.5_linux_amd64.zip
     
 RUN /bin/zsh
