@@ -48,6 +48,11 @@
 		"ghcr.io/devcontainers/features/git:1": {},
 		"ghcr.io/devcontainers/features/github-cli:1": {},
 		"ghcr.io/devcontainers/features/terraform:1": {},
+		"kubectl-helm-minikube": {
+        		"version": "latest",
+		        "helm": "latest",
+        		"minikube": "latest"
+    		},
 // 		"ghcr.io/devcontainers/features/kubectl-helm-minikube:latest": {
 // 			"version": "latest"
 // 		},
