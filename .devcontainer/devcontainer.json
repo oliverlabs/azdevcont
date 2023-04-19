@@ -15,7 +15,8 @@
 				"ms-azuretools.vscode-docker",
 				"editorconfig.editorconfig",
 				"github.vscode-pull-request-github",
-				"github.vscode-github-actions"
+				"github.vscode-github-actions",
+				"PKief.material-icon-theme"
 			],
 
 			"settings": { 
