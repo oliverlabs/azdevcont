@@ -6,10 +6,12 @@ You can use it in GitHub Codespaces or locally as a devcontainer.
 # What's Available?
 Here is a list of packages, components that are available out-the-box with this Codespaces container:
 
-- Linux Ubuntu as a base image
+- Linux Ubuntu Jammy (LTS-22.04) as a base image
 - zsh (linux shell)
-- oh-my-zsh extension for zsh
+- oh-my-zsh extension for zsh with a legendary STARSHIP theme
 - AzCLI (latest)
+- jq parsing tool
+- GitHub CLI
 - Az Bicep (latest)
 - Terraform (latest)
 - python3
@@ -21,46 +23,3 @@ Here is a list of packages, components that are available out-the-box with this 
 - VS Code Bicep
 - azurerm-vscode-tools
 - ms-azuretools.vscode-docker
-- editorconfig.editorconfig
-
-## Debian Packages
-
-- apt-utils
-- openssh-client
-- gnupg2
-- dirmngr
-- iproute2
-- procps
-- lsof
-- htop
-- net-tools
-- psmisc
-- curl
-- wget
-- rsync
-- ca-certificates
-- unzip
-- zip
-- nano
-- vim-tiny
-- less
-- jq
-- lsb-release
-- apt-transport-https
-- dialog
-- libc6
-- libgcc1
-- libkrb5-3
-- libgssapi-krb5-2
-- libicu[0-9][0-9]
-- liblttng-ust[0-9]
-- libstdc++6
-- zlib1g
-- locales
-- sudo
-- ncdu
-- man-db
-- strace
-- manpages
-- manpages-dev
-- init-system-helpers
