@@ -10,5 +10,6 @@
       "path": "zsh",
       "args": ["-l"]
     }
-  }
+  },
+  "terminal.integrated.scrollback": 100000000
 }
