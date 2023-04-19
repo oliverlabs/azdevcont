@@ -6,7 +6,7 @@ You can use it in GitHub Codespaces or locally as a devcontainer.
 # What's Available?
 Here is a list of packages, components that are available out-the-box with this Codespaces container:
 
-- Linux Debian as a base image
+- Linux Ubuntu as a base image
 - zsh (linux shell)
 - oh-my-zsh extension for zsh
 - AzCLI (latest)
