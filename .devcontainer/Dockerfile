@@ -1,6 +1,5 @@
-# [Choice] .NET Core version: 3.1, 2.1
-ARG VARIANT=3.1
-FROM mcr.microsoft.com/devcontainers/dotnet:0-3.1
+# Base image: Ubuntu Latest
+FROM mcr.microsoft.com/devcontainers/base:ubuntu
 
 COPY library-scripts/azcli-debian.sh /tmp/library-scripts/
 COPY library-scripts/common-debian.sh /tmp/library-scripts/
