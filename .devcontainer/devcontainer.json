@@ -1,8 +1,7 @@
 {
 	"name": "Azure Dev Tools DevContainer",
-	// specify source container image - Ubuntu 22.04 LTS Jammy
+	// Specify source container image - Ubuntu 22.04 LTS Jammy
 	"image": "mcr.microsoft.com/devcontainers/base:ubuntu",
-	// "dockerFile": "Dockerfile",
 	// Configure tool-specific properties.
 	"customizations": {
 		// Configure properties specific to VS Code.
@@ -42,7 +41,9 @@
 		"SHELL": "/usr/bin/zsh"
 	},
 	"features": {
-		"ghcr.io/devcontainers/features/common-utils:2": {},
+		"ghcr.io/devcontainers/features/common-utils:2": {
+			"CONFIGUREZSHASDEFAULTSHELL": true
+		},
 		"ghcr.io/devcontainers/features/azure-cli:latest": {
 			"version": "latest",
 			"extensions": "amg,aks-preview,containerapp",
@@ -51,18 +52,11 @@
 		"ghcr.io/devcontainers/features/git:1": {},
 		"ghcr.io/devcontainers/features/github-cli:1": {},
 		"ghcr.io/devcontainers/features/terraform:1": {},
-		"kubectl-helm-minikube": {
-			"version": "latest",
-			"helm": "latest",
-			"minikube": "latest"
+		"ghcr.io/devcontainers/features/kubectl-helm-minikube:latest": {},
+		"ghcr.io/devcontainers-contrib/features/zsh-plugins:0": {
+			"plugins": "git zsh-autosuggestions zsh-completions zsh-syntax-highlighting"
 		},
-		// 		"ghcr.io/devcontainers/features/kubectl-helm-minikube:latest": {
-		// 			"version": "latest"
-		// 		},
-		"ghcr.io/devcontainers-contrib/features/zsh-plugins:0": {},
 		"ghcr.io/eitsupi/devcontainer-features/jq-likes:1": {},
-		"ghcr.io/stuartleeks/dev-container-features/shell-history:0": {},
-		"github-cli": "latest",
-		"azure-cli": "latest"
+		"ghcr.io/stuartleeks/dev-container-features/shell-history:0": {}
 	}
 }

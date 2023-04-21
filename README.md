@@ -12,12 +12,13 @@ Here is a list of tools that are available out-the-box with this Codespaces cont
 - Azure CLI (latest)
 - GitHub CLI (latest)
 - Azure Bicep CLI (latest)
-- [jq tool](http://www.compciv.org/recipes/cli/jq-for-parsing-json/) (lightweight and flexible command-line JSON processor)
+- jq tool (lightweight and flexible command-line JSON processor)
 - Terraform (latest)
 - python3
 - Helm
 - Minikube
 - Kubectl
+
 
 ## VS Code Extensions
 - GitHub Actions
@@ -27,3 +28,5 @@ Here is a list of tools that are available out-the-box with this Codespaces cont
 - Material Icon Theme
 - azurerm-vscode-tools
 - ms-azuretools.vscode-docker
+- scroll-back history for terminal: 1,000,000 lines
+- UK Keyboard layout for browser based GitHub Codespaces as default
