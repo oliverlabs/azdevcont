@@ -2,14 +2,19 @@
   "terminal.integrated.profiles.windows": {
     "PowerShell -NoProfile": {
       "source": "PowerShell",
-      "args": ["-NoProfile"]
+      "args": [
+        "-NoProfile"
+      ]
     }
   },
   "terminal.integrated.profiles.linux": {
     "zsh (login)": {
       "path": "zsh",
-      "args": ["-l"]
+      "args": [
+        "-l"
+      ]
     }
   },
-  "terminal.integrated.scrollback": 100000000
+  "terminal.integrated.scrollback": 100000000,
+  "keyboard.layout": "00000809"
 }

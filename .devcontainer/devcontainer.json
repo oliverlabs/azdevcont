@@ -1,7 +1,8 @@
 {
-	"name": "Oliver's Dev Container",
-	"dockerFile": "Dockerfile",
-
+	"name": "Azure Dev Tools DevContainer",
+	// specify source container image - Ubuntu 22.04 LTS Jammy
+	"image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+	// "dockerFile": "Dockerfile",
 	// Configure tool-specific properties.
 	"customizations": {
 		// Configure properties specific to VS Code.
@@ -18,45 +19,46 @@
 				"github.vscode-github-actions",
 				"PKief.material-icon-theme"
 			],
-
-			"settings": { 
-        		// "terminal.integrated.shell.linux": "/bin/zsh"
-        		"terminal.integrated.defaultProfile.linux": "zsh", 
-        		"terminal.integrated.profiles.linux": {
-            		"zsh": {
-                	"path": "/bin/zsh"
-            		}
-        		}
-    		}
+			"settings": {
+				// "terminal.integrated.shell.linux": "/bin/zsh"
+				"terminal.integrated.defaultProfile.linux": "zsh",
+				"terminal.integrated.profiles.linux": {
+					"zsh": {
+						"path": "/bin/zsh"
+					}
+				},
+				"terminal.integrated.scrollback": 100000000,
+				"keyboard.layout": "00000809"
+			}
 		}
 	},
-		
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
-	"forwardPorts": [8080],
-
+	"forwardPorts": [
+		8080
+	],
 	// Uncomment to connect as a non-root user. See https://aka.ms/vscode-remote/containers/non-root.
 	"remoteUser": "vscode",
 	"remoteEnv": {
-    		"SHELL": "/usr/bin/zsh"
+		"SHELL": "/usr/bin/zsh"
 	},
 	"features": {
 		"ghcr.io/devcontainers/features/common-utils:2": {},
 		"ghcr.io/devcontainers/features/azure-cli:latest": {
-      			"version": "latest",
+			"version": "latest",
 			"extensions": "amg,aks-preview,containerapp",
-      			"installBicep": true
-    		},
+			"installBicep": true
+		},
 		"ghcr.io/devcontainers/features/git:1": {},
 		"ghcr.io/devcontainers/features/github-cli:1": {},
 		"ghcr.io/devcontainers/features/terraform:1": {},
 		"kubectl-helm-minikube": {
-        		"version": "latest",
-		        "helm": "latest",
-        		"minikube": "latest"
-    		},
-// 		"ghcr.io/devcontainers/features/kubectl-helm-minikube:latest": {
-// 			"version": "latest"
-// 		},
+			"version": "latest",
+			"helm": "latest",
+			"minikube": "latest"
+		},
+		// 		"ghcr.io/devcontainers/features/kubectl-helm-minikube:latest": {
+		// 			"version": "latest"
+		// 		},
 		"ghcr.io/devcontainers-contrib/features/zsh-plugins:0": {},
 		"ghcr.io/eitsupi/devcontainer-features/jq-likes:1": {},
 		"ghcr.io/stuartleeks/dev-container-features/shell-history:0": {},
