@@ -12,10 +12,15 @@
 				"ms-dotnettools.vscode-dotnet-runtime",
 				"ms-azuretools.vscode-bicep",
 				"msazurermtools.azurerm-vscode-tools",
-				"ms-azuretools.vscode-docker",
 				"editorconfig.editorconfig",
 				"github.vscode-pull-request-github",
 				"github.vscode-github-actions",
+				"GitHub.copilot",
+				"hashicorp.terraform",
+				"VisualStudioExptTeam.vscodeintellicode",
+				"esbenp.prettier-vscode",
+				"mechatroner.rainbow-csv",
+				"redhat.vscode-yaml",
 				"PKief.material-icon-theme"
 			],
 			"settings": {
