@@ -16,5 +16,6 @@
     }
   },
   "terminal.integrated.scrollback": 100000000,
+  "editor.fontFamily": "CaskaydiaCove NF",
   "keyboard.layout": "00000809"
 }
