@@ -53,10 +53,9 @@
 		"ghcr.io/devcontainers/features/github-cli:1": {},
 		"ghcr.io/devcontainers/features/terraform:1": {},
 		"ghcr.io/devcontainers/features/kubectl-helm-minikube:latest": {},
-		"ghcr.io/devcontainers-contrib/features/neovim-apt-get:1": {},
 		"ghcr.io/devcontainers-contrib/features/zsh-plugins:0": {
-			"plugins": "git zsh-autocomplete zsh-syntax-highlighting",
-			"omzPlugins": "https://github.com/marlonrichert/zsh-autocomplete https://github.com/zsh-users/zsh-syntax-highlighting",
+			"plugins": "git zsh-syntax-highlighting",
+			"omzPlugins": "https://github.com/zsh-users/zsh-syntax-highlighting",
 			"username": "vscode"
 		},
 		"ghcr.io/eitsupi/devcontainer-features/jq-likes:1": {},
