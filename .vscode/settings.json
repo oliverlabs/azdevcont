@@ -16,6 +16,12 @@
     }
   },
   "terminal.integrated.scrollback": 100000000,
+// <<-- UNCOMMENT BELOW FOR WINDOWS -->>
 //  "editor.fontFamily": "CaskaydiaCove NF",
+// <<-- FOR MAC OS -->>
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 16,
+  "terminal.integrated.fontSize": 14,
   "keyboard.layout": "00000809"
 }
