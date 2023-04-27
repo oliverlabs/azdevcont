@@ -1,0 +1,28 @@
+{
+	// See https://go.microsoft.com/fwlink/?LinkId=827846 to learn about workspace recommendations.
+	// Extension identifier format: ${publisher}.${name}. Example: vscode.csharp
+
+	// List of extensions which should be recommended for users of this workspace.
+	"recommendations": [
+		    "coenraads.bracket-pair-colorizer-2",
+				"ms-vscode.azurecli",
+				"ms-dotnettools.vscode-dotnet-runtime",
+				"ms-azuretools.vscode-bicep",
+			  "ms-azuretools.vscode-docker",
+			  "ms-vsliveshare.vsliveshare",
+				"msazurermtools.azurerm-vscode-tools",
+			  "visualstudioexptteam.vscodeintellicode",
+				"editorconfig.editorconfig",
+			  "vscode-icons-team.vscode-icons",
+				"github.vscode-pull-request-github",
+				"github.vscode-github-actions",
+				"GitHub.copilot",
+				"hashicorp.terraform",
+				"VisualStudioExptTeam.vscodeintellicode",
+				"esbenp.prettier-vscode",
+				"mechatroner.rainbow-csv",
+				"redhat.vscode-yaml",
+				"PKief.material-icon-theme"
+	]
+}
+
