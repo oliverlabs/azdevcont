@@ -23,5 +23,6 @@
   "editor.fontLigatures": true,
   "editor.fontSize": 16,
   "terminal.integrated.fontSize": 14,
-  "keyboard.layout": "00000809"
+  "keyboard.layout": "00000809",
+  "workbench.iconTheme": "material-icon-theme"
 }
