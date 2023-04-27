@@ -20,6 +20,7 @@
 		"hashicorp.terraform",
 		"VisualStudioExptTeam.vscodeintellicode",
 		"esbenp.prettier-vscode",
+		"mechatroner.rainbow-csv",
 		"redhat.vscode-yaml",
 		"PKief.material-icon-theme"
 	]
