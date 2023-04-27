@@ -8,11 +8,16 @@
 		"vscode": {
 			// Add the IDs of extensions you want installed when the container is created.
 			"extensions": [
+				"coenraads.bracket-pair-colorizer-2",
 				"ms-vscode.azurecli",
 				"ms-dotnettools.vscode-dotnet-runtime",
 				"ms-azuretools.vscode-bicep",
+			        "ms-azuretools.vscode-docker",
+			        "ms-vsliveshare.vsliveshare",
 				"msazurermtools.azurerm-vscode-tools",
+			        "visualstudioexptteam.vscodeintellicode",
 				"editorconfig.editorconfig",
+			        "vscode-icons-team.vscode-icons",
 				"github.vscode-pull-request-github",
 				"github.vscode-github-actions",
 				"GitHub.copilot",
@@ -22,7 +27,7 @@
 				"mechatroner.rainbow-csv",
 				"redhat.vscode-yaml",
 				"PKief.material-icon-theme"
-			],
+	   		], 
 			"settings": {
 				// "terminal.integrated.shell.linux": "/bin/zsh"
 				"terminal.integrated.defaultProfile.linux": "zsh",
