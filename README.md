@@ -9,16 +9,18 @@ Here is a list of tools that are available out-the-box with this Codespaces cont
 - Linux Ubuntu Jammy (LTS-22.04) used as a base image
 - zsh Linux shell as default (bash is available)
 - oh-my-zsh extension for zsh with the legendary STARSHIP theme
-- Azure CLI (latest)
-- GitHub CLI (latest)
-- Azure Bicep CLI (latest)
+- Azure CLI 
+- GitHub CLI
+- Azure Bicep CLI
 - jq tool (lightweight and flexible command-line JSON processor)
-- Terraform (latest)
+- Terraform 
 - python3
-- Helm
+- Node 
+- Helm 
 - Minikube
 - Kubectl
 
+Please note that, if available, the _latest_ version of the package is used.
 
 ## VS Code Extensions
 - GitHub Actions
