@@ -63,7 +63,6 @@
 		"ghcr.io/devcontainers/features/git:1": {},
 		"ghcr.io/devcontainers/features/github-cli:1": {},
 		"ghcr.io/devcontainers/features/terraform:1": {},
-		"ghcr.io/devcontainers/features/node:1": {},
 		"ghcr.io/devcontainers/features/kubectl-helm-minikube:latest": {},
 		"ghcr.io/devcontainers-contrib/features/zsh-plugins:0": {
 			"plugins": "git zsh-syntax-highlighting",
