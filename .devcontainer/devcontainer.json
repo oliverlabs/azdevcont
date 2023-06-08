@@ -26,7 +26,8 @@
 				"esbenp.prettier-vscode",
 				"mechatroner.rainbow-csv",
 				"redhat.vscode-yaml",
-				"PKief.material-icon-theme"
+				"PKief.material-icon-theme",
+				"GitHub.copilot-chat"
 	   		], 
 			"settings": {
 				// "terminal.integrated.shell.linux": "/bin/zsh"
