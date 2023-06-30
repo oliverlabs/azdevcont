@@ -52,10 +52,10 @@
 // 		"SHELL": "/usr/bin/zsh"
 // 	},
 	"features": {
-		"ghcr.io/devcontainers/features/node:1": {},
-		"ghcr.io/devcontainers/features/dotnet:1": {
-			"version": "7"
-		},
+// 		"ghcr.io/devcontainers/features/node:1": {},
+// 		"ghcr.io/devcontainers/features/dotnet:1": {
+// 			"version": "7"
+// 		},
 		"ghcr.io/devcontainers/features/common-utils:2": {
 			"CONFIGUREZSHASDEFAULTSHELL": true
 		},
@@ -75,5 +75,10 @@
 		},
 		"ghcr.io/eitsupi/devcontainer-features/jq-likes:1": {},
 		"ghcr.io/stuartleeks/dev-container-features/shell-history:0": {}
-	}
+	},
+	
+	"postCreateCommand": [
+		"curl -sL https://deb.nodesource.com/setup_14.x | sudo bash -",
+		"sudo apt -y install nodejs"
+	]
 }
