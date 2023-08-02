@@ -78,9 +78,6 @@
 		"ghcr.io/stuartleeks/dev-container-features/shell-history:0": {}
 	},
 	
- 	"postCreateCommand": [
-		"npm install -g @githubnext/github-copilot-cli",
-		"eval \"$(github-copilot-cli alias -- \"$0\")"
-	]
+ 	"postCreateCommand": "npm install -g @githubnext/github-copilot-cli"
 
 }
