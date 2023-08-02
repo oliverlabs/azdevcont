@@ -30,5 +30,6 @@ Please note that, if available, the _latest_ version of the package is used.
 - Material Icon Theme
 - azurerm-vscode-tools
 - ms-azuretools.vscode-docker
+- draw.io integration
 - scroll-back history for terminal: 1,000,000 lines
 - UK Keyboard layout for browser based GitHub Codespaces as default
