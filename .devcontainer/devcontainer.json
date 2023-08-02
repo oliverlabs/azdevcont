@@ -76,10 +76,8 @@
 		},
 		"ghcr.io/eitsupi/devcontainer-features/jq-likes:1": {},
 		"ghcr.io/stuartleeks/dev-container-features/shell-history:0": {}
-	}
+	},
 	
-// 	"postCreateCommand": [
-// 		"curl -sL https://deb.nodesource.com/setup_14.x | sudo bash -",
-// 		"sudo apt -y install nodejs"
-// 	]
+ 	"postCreateCommand": "npm install -g @githubnext/github-copilot-cli"
+
 }
