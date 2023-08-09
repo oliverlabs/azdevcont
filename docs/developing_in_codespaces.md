@@ -1,34 +1,32 @@
 # Developing in a GitHub Codespaces
 
-* [Getting started with codespace](#getting-started-with-codespace)
-* [Creating your codespace](#Creating-your-codespace)
-  * From a GitHub template or any template repository to start a new project
-  * From a branch in your repository for new feature work
-  * From an open pull request to explore work-in-progress
-* [Using GitHub Codespaces in Visual Studio Code](#Using-GitHub-Codespaces-in-Visual-Studio-Code)
-  * [Prerequisites](#Prerequisites)
-  * [Opening a codespace in VS Code](#Opening-a-codespace-in-VS-Code)
-  * [Navigating to an existing codespace](#navigating-to-an-existing-codespace)
+- [Developing in a GitHub Codespaces](#developing-in-a-github-codespaces)
+  - [Getting started with codespace](#getting-started-with-codespace)
+  - [Creating your codespace](#creating-your-codespace)
+  - [Using GitHub Codespaces in Visual Studio Code](#using-github-codespaces-in-visual-studio-code)
+  - [Prerequisites](#prerequisites)
+  - [Opening a codespace in VS Code](#opening-a-codespace-in-vs-code)
+  - [Navigating to an existing codespace](#navigating-to-an-existing-codespace)
+
 ---
+
 ## Getting started with codespace
 
 A codespace is a development environment that's hosted in the cloud. You can customize your project for GitHub Codespaces by committing configuration files to your repository, which creates a repeatable codespace configuration for all users of your project.
 
----
 ## Creating your codespace
 
-1.	Click on    [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/microsoft/PubSec-Info-Assistant)
-2.	New window will open where you can create a new codespace
-3.	By default, you will be on **main** branch, you can switch to specific branch where you would like to create a codespace.
+1. Click on    [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/microsoft/PubSec-Info-Assistant)
+2. New window will open where you can create a new codespace
+3. By default, you will be on **main** branch, you can switch to specific branch where you would like to create a codespace.
     Also it would provide option to select **Region**,**Machine type**
 4. Then click on  **Create codespace**
 ![Codespaces creation](/docs/images/codespaces_creation.png)
-5.	Then it automatically start building container in the github codespaces ( wait for until container successfully created)
+5. Then it automatically start building container in the github codespaces ( wait for until container successfully created)
 ![Building container](/docs/images/codespaces_building_container.png)
 6. When you create a new codespace from a template, it is always opened in the Visual Studio Code web client. You can reopen an existing codespace in any supported editor
 ![Codespaces in vscode](/docs/images/codespaces_open_in_vs_code_desktop.png)
 
----
 ## Using GitHub Codespaces in Visual Studio Code
 
 GitHub Codespaces provides you with the full development experience of Visual Studio Code. You can develop in your codespace directly in Visual Studio Code by connecting the GitHub Codespaces extension with your account on GitHub.
@@ -40,7 +38,6 @@ You can use your local install of Visual Studio Code to create, manage, work in,
 To develop in a codespace directly in VS Code, you must install and sign into the GitHub Codespaces extension with your GitHub credentials. The GitHub Codespaces extension requires VS Code October 2020 Release 1.51 or later.
 
 Use the Visual Studio Code Marketplace to install the [GitHub Codespaces](https://marketplace.visualstudio.com/items?itemName=GitHub.codespaces) extension. For more information, see [Extension Marketplace](https://code.visualstudio.com/docs/editor/extension-gallery) in the VS Code documentation.
-
 
 1. In VS Code, in the Activity Bar, click the Remote Explorer icon.
  ![Alt text](/docs/images/developing_in_a_codespaces_image_1.png)
@@ -73,7 +70,6 @@ Use the Visual Studio Code Marketplace to install the [GitHub Codespaces](https:
 3. Click the connection icon (a plug symbol).
 
     ![Alt text](/docs/images/developing_in_a_codespaces_open_in_vscode_4.png)
-
 
 ## Navigating to an existing codespace
 
