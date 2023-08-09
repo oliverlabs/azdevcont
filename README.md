@@ -3,6 +3,11 @@ This is my implementation of a GitHub devcontainer with Az CLI, Bicep, Terraform
 
 You can use it in GitHub Codespaces or locally as a devcontainer.
 
+# Try It Out
+Often times, the deployment process for many repos uses a concept of *Developing inside a Container* to containerize all the necessary pre-requisite component without requiring them to be installed on the local machine. This is where this template can be useful. The environment you will work in will be created using a development container, or dev container hosted on a virtual machine using GitHub Codespaces.
+
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/oliverlabs/azdevcont)
+
 # What's Available?
 Here is a list of tools that are available out-the-box with this Codespaces container:
 
