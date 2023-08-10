@@ -57,7 +57,7 @@
 			"version": "7"
 		},
 		"ghcr.io/devcontainers/features/common-utils:2": {
-// 			"CONFIGUREZSHASDEFAULTSHELL": true
+ 			"CONFIGUREZSHASDEFAULTSHELL": true
 		},
 		"ghcr.io/devcontainers/features/azure-cli:latest": {
 			"version": "latest",
