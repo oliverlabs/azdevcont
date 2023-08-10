@@ -16,7 +16,7 @@ A codespace is a development environment that's hosted in the cloud. You can cus
 
 ## Creating your codespace
 
-1. Click on    [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/microsoft/PubSec-Info-Assistant)
+1. Click on    [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/oliverlabs/azdevcont)
 2. New window will open where you can create a new codespace
 3. By default, you will be on **main** branch, you can switch to specific branch where you would like to create a codespace.
     Also it would provide option to select **Region**,**Machine type**
