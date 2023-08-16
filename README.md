@@ -8,7 +8,9 @@ You can use it in GitHub Codespaces or locally as a devcontainer.
 
 Often times the deployment process for many repos uses a concept of *Developing inside a Container* to containerize all the necessary pre-requisite component without requiring them to be installed on the local machine. This is where this template can be useful. The environment you will work in will be created using a development container, or dev container hosted on a virtual machine using GitHub Codespaces.
 
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/oliverlabs/azdevcont)
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/oliverlabs/azdevcont) <br>
+[![Open in VS Code Dev Containers](https://img.shields.io/static/v1?style=for-the-badge&label=VSCode%20-%20DevContainer&message=Open&color=blue&logo=visualstudiocode)](https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/oliverlabs/azdevcont)
+[![Open in VS Code - Insiders Dev Containers](https://img.shields.io/static/v1?style=for-the-badge&label=VSCode-Insiders%20-%20Devcontainer&message=Open&color=blue&logo=visualstudiocode)](https://insiders.vscode.dev/redirect?url=vscode-insiders://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/oliverlabs/azdevcont)
 
 Begin by setting up your own Codespace using [Developing in Codespaces](docs/developing_in_codespaces.md) guide.
 
