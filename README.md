@@ -12,9 +12,8 @@ Often times the deployment process for many repos uses a concept of *Developing 
 [![Open in VS Code Dev Containers](https://img.shields.io/static/v1?style=for-the-badge&label=VSCode%20-%20DevContainer&message=Open&color=blue&logo=visualstudiocode)](https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/oliverlabs/azdevcont)
 [![Open in VS Code - Insiders Dev Containers](https://img.shields.io/static/v1?style=for-the-badge&label=VSCode-Insiders%20-%20Devcontainer&message=Open&color=blue&logo=visualstudiocode)](https://insiders.vscode.dev/redirect?url=vscode-insiders://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/oliverlabs/azdevcont)
 
-Begin by setting up your own Codespace using [Developing in Codespaces](docs/developing_in_codespaces.md) guide.
-
-*If you want to configure your local deskop for development container, follow the [Configuring your System for Development Containers](/docs/configure_local_dev_environment.md) guide. More information can be found at [Developing inside a Container](https://code.visualstudio.com/docs/remote/containers).*
+> **Note**
+> More information can be found at [Developing inside a Container](https://code.visualstudio.com/docs/remote/containers).
 
 ## What's Available?
 
