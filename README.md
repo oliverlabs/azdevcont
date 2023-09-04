@@ -23,6 +23,9 @@ Here is a list of tools that are available out-the-box with this Codespaces cont
 - zsh Linux shell as default (bash is available)
 - oh-my-zsh extension for zsh with the legendary STARSHIP theme
 - Azure CLI
+- Azure Developer CLI (azd)
+- Docker in Docker
+- Dotnet Runtime
 - GitHub CLI
 - Azure Bicep CLI
 - jq tool (lightweight and flexible command-line JSON processor)
