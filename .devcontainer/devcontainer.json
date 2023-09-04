@@ -9,6 +9,11 @@
 			// Add the IDs of extensions you want installed when the container is created.
 			"extensions": [
 				"coenraads.bracket-pair-colorizer-2",
+				"GitHub.vscode-github-actions",
+		                "ms-azuretools.azure-dev",
+		                "ms-azuretools.vscode-azurefunctions",
+		                "ms-python.python",
+		                "ms-vscode.vscode-node-azure-pack",
 				"ms-vscode.azurecli",
 				"ms-dotnettools.vscode-dotnet-runtime",
 				"ms-azuretools.vscode-bicep",
@@ -53,6 +58,8 @@
 	},
 	"features": {
 		"ghcr.io/devcontainers/features/node:1": {},
+		"ghcr.io/azure/azure-dev/azd:latest": {},
+		"ghcr.io/devcontainers/features/docker-in-docker:2": {},
 		"ghcr.io/devcontainers/features/dotnet:1": {
 			"version": "7"
 		},
