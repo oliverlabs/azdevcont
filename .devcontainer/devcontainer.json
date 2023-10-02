@@ -9,6 +9,7 @@
 			// Add the IDs of extensions you want installed when the container is created.
 			"extensions": [
 				"coenraads.bracket-pair-colorizer-2",
+				"humao.rest-client",
 				"GitHub.vscode-github-actions",
 		                "ms-azuretools.azure-dev",
 		                "ms-azuretools.vscode-azurefunctions",
