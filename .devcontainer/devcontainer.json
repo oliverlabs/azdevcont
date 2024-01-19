@@ -81,6 +81,9 @@
 			"omzPlugins": "https://github.com/zsh-users/zsh-syntax-highlighting https://github.com/zsh-users/zsh-autosuggestions",
 			"username": "vscode"
 		},
+		"ghcr.io/devcontainers/features/sshd:1": {
+		        "version": "latest"
+		},
 		"ghcr.io/eitsupi/devcontainer-features/jq-likes:1": {},
 		"ghcr.io/stuartleeks/dev-container-features/shell-history:0": {}
 	},
