@@ -35,6 +35,7 @@ Here is a list of tools that are available out-the-box with this Codespaces cont
 - Helm
 - Minikube
 - Kubectl
+- sshd
 
 Please note that, if available, the *latest* version of the package is used.
 
@@ -50,3 +51,14 @@ Please note that, if available, the *latest* version of the package is used.
 - draw.io integration
 - scroll-back history for terminal: 1,000,000 lines
 - UK Keyboard layout for browser based GitHub Codespaces as default
+
+## Remoting Into Codespaces
+You can remote into the created Codespaces from your local machine using ssh. Refer to the commands [here](https://docs.github.com/en/codespaces/developing-in-a-codespace/using-github-codespaces-with-github-cli).
+
+Example:
+```bash
+gh cs ssh -c [CODESPACENAME]
+```
+Once connected, you can type `zsh` to use the zsh shell.
+
+Happy coding!
