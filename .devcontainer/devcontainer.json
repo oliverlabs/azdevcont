@@ -1,7 +1,7 @@
 {
 	"name": "Azure Dev Tools DevContainer",
-	// Specify source container image - Ubuntu 22.04 LTS Jammy
-	"image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+	// Specify source container image - Ubuntu 24.04
+	"image": "mcr.microsoft.com/devcontainers/base:ubuntu-24.04",
 	// Configure tool-specific properties.
 	"customizations": {
 		// Configure properties specific to VS Code.
