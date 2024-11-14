@@ -2,6 +2,11 @@
 	"name": "Azure Dev Tools DevContainer",
 	// Specify source container image - Ubuntu 24.04
 	"image": "mcr.microsoft.com/devcontainers/base:ubuntu-24.04",
+	    "hostRequirements": {
+	        "cpus": 4,
+	        "memory": "16gb",
+	        "storage": "32gb"
+	    },
 	// Configure tool-specific properties.
 	"customizations": {
 		// Configure properties specific to VS Code.
