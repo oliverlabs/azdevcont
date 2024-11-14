@@ -19,7 +19,7 @@ Often times the deployment process for many repos uses a concept of *Developing 
 
 Here is a list of tools that are available out-the-box with this Codespaces container:
 
-- Linux Ubuntu Jammy (LTS-22.04) used as a base image
+- Linux Ubuntu Noble Numbat (LTS-24.04) used as a base image
 - zsh Linux shell as default (bash is available)
 - oh-my-zsh extension for zsh with the legendary STARSHIP theme
 - Azure CLI
